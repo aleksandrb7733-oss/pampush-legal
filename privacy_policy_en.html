@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Pampush</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 700px; margin: 0 auto; padding: 24px 16px; color: #1a1a1a; line-height: 1.6; }
+    h1 { font-size: 22px; margin-bottom: 4px; }
+    h2 { font-size: 16px; margin-top: 28px; margin-bottom: 8px; }
+    p, li { font-size: 15px; margin: 6px 0; }
+    ul { padding-left: 20px; }
+    .meta { color: #666; font-size: 13px; margin-bottom: 28px; }
+    a { color: #2563eb; }
+  </style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="meta">App: Pampush &nbsp;|&nbsp; Effective date: June 25, 2026</p>
+
+<h2>1. Who we are</h2>
+<p>Pampush is a mobile application for sports and dance coaches. Developer and data controller: Oleksandr B. (contact: <a href="mailto:aleksandr.b7733@gmail.com">aleksandr.b7733@gmail.com</a>).</p>
+
+<h2>2. What data we collect and why</h2>
+<p><strong>Account data (coach):</strong> email address and name entered during registration. Used for login and cloud database identification.</p>
+<p><strong>Club and student data (entered manually by the coach):</strong> names, dates of birth, contact details of students (including minors), payment information (amounts, dates, statuses), attendance records. This data is entered by the coach — the club owner — and stored in the app for record-keeping purposes.</p>
+<p><strong>Technical data (no PII):</strong> anonymous interaction events (e.g. "tab opened", "button tapped") are sent to Firebase Analytics without any names or contact details.</p>
+<p><strong>Subscription data:</strong> active subscription status (yes/no) and expiry date are processed by RevenueCat. RevenueCat does not receive any student data.</p>
+
+<h2>3. How we store data</h2>
+<p><strong>On device:</strong> all club and student data is stored locally in an encrypted database (SQLite, AES-256). The encryption key is stored in the OS secure enclave (Keychain/Keystore).</p>
+<p><strong>In the cloud:</strong> data is synced via PowerSync and Supabase (PostgreSQL). All transfers use TLS 1.3. The cloud copy mirrors local storage for recovery and multi-device use. Supabase servers are located in the EU.</p>
+
+<h2>4. Personal data of minors</h2>
+<p>The app is designed for coaches, not children directly. Coaches enter data about their students (including minors) based on their own legal basis (contract, lawful club activity). Pampush does not collect data from minors directly and does not provide minors with account access.</p>
+
+<h2>5. Who we share data with</h2>
+<ul>
+  <li><strong>Supabase</strong> — cloud database.</li>
+  <li><strong>PowerSync</strong> — sync engine between device and cloud.</li>
+  <li><strong>RevenueCat</strong> — subscription management via App Store / Google Play. RevenueCat receives only a user identifier and subscription status.</li>
+  <li><strong>Firebase (Google)</strong> — anonymous analytics and crash reporting. No names, emails, or student data are transmitted.</li>
+</ul>
+<p>Data is never sold or shared with third parties for commercial purposes.</p>
+
+<h2>6. Pampush Pro subscription</h2>
+<p>Pampush Pro is a monthly auto-renewing subscription. Payment is charged through Google Play or the App Store depending on your device. For pricing, free trial terms, and cancellation instructions, see the <a href="https://aleksandrb7733-oss.github.io/GroupHelper/legal/terms_of_use_en.html">Terms of Use</a>.</p>
+
+<h2>7. Your rights</h2>
+<p>You have the right to access, correct, or delete your data. To delete your account and all associated data, use the "Delete account" feature in the app or contact us at: <a href="mailto:aleksandr.b7733@gmail.com">aleksandr.b7733@gmail.com</a>.</p>
+
+<h2>8. Retention and deletion</h2>
+<p>Data is retained while you use the app. After account deletion, all cloud data is removed within 30 days. Local data on your device is removed when you uninstall the app.</p>
+
+<h2>9. Changes to this policy</h2>
+<p>We will notify you of material changes via the app or at the contact address below. The current version is always available at this URL.</p>
+
+<h2>10. Contact</h2>
+<p>Privacy questions: <a href="mailto:aleksandr.b7733@gmail.com">aleksandr.b7733@gmail.com</a></p>
+
+</body>
+</html>
